@@ -1,0 +1,26 @@
+textarea.materialize-textarea {
+    height: 400px;
+    border: 1px solid rgb(64, 164, 155);
+    overflow: scroll;
+    padding: 10px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    textarea.materialize-textarea {
+        height: 250px;
+    }
+
+    .row {
+        margin-bottom: 7px;
+    }
+}
